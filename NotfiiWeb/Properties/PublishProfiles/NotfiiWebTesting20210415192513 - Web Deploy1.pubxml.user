@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeWUIiX+pKEqcKy+ca7otbAAAAAACAAAAAAAQZgAAAAEAACAAAABP+jqirH11CcXElUaDYPyh+xvuY0Ix2Dhyxo23r0cNbAAAAAAOgAAAAAIAACAAAADUGgBGMHSiUsVu0Ua8n4iYRJsKgJWJY9e00lywQl+nuYAAAAD1wPvT3cB+O2hB6CRvDIfvDsdmPJd4fewHEd1MvVxk06r15tMxCPoOuomGy6OArpqXkXNdhtu9LiHJ9hBHeRxEyWRu1xQRp03Kx75101KsTy/SYhHiPAWWOq6f/yLtnNp3NmE/qpPP4saqySWPrnU71+/KGz3+5YAUtEtWVuxZpUAAAAB00729wxpUaWP0r6HQQy5jiS9juDYNhYW8APLOpfOsDf12LKIjsFfTrzWYJQnxQGfKmyewbkiSqHknzZooMSOt</EncryptedPassword>
+    <History>True|2021-04-15T23:33:53.5697894Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=notfiiserver.database.windows.net%3bInitial Catalog=notfiidata%3bPersist Security Info=True%3bUser ID=notfiiadmins%3bPassword=wayDeliSaw8%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="NotfiiWeb.Data.ApplicationDbContext">
+      <Value>Data Source=notfiiserver.database.windows.net%3bInitial Catalog=notfiidata%3bPersist Security Info=True%3bUser ID=notfiiadmins%3bPassword=wayDeliSaw8%3bMultipleActiveResultSets=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
